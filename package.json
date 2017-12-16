@@ -1,0 +1,26 @@
+{
+  "name": "rogaczewski.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogaczewski/rogaczewski.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogaczewski/rogaczewski.github.io/issues"
+  },
+  "homepage": "https://github.com/rogaczewski/rogaczewski.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "react": "^16.2.0"
+  }
+}
