@@ -110,6 +110,7 @@ input {
     font-family: 'Encode Sans Expanded', Arial, sans-serif;
     height: 30px;
     width: 200px;
+    margin-top: -13px;
 }
 
 form a:link {
@@ -123,7 +124,21 @@ form a:hover {
 	color: #fff;
 }
 
-	
+#newsletter {
+	width: 15px;
+    display: inline-block;
+    margin: -10px 5px 8px 20px;
+}
+
+form label {
+    font-size: 0.8em;
+    color: #545454;
+    margin: -30px 0px 0 39px;
+    display: block;
+}
+
+form p {
+    margin-top: -10px;	
 
 footer {
 	margin: 0 auto;
