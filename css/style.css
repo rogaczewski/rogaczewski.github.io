@@ -162,11 +162,10 @@ footer p {
     height: 300px;
     opacity: 1;
     background-image: url(../img/bikehiro.jpg);
-    background-position: 70% 60%;
+    background-position: 70% -255px;
     /* background-size: 50%; */
-    top: 30px;
+    /* top: 30px; */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #000;
-	
 }
