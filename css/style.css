@@ -29,12 +29,13 @@ aside {
 nav {
 	position: fixed;
     top: 15px;
-    left: 237px;
-    margin: 0 auto;
+    /* left: 0; */
+    margin: 0px -8%;
     width: 342px;
     /* border: 1px solid #000; */
     background-color: #fff;
     box-shadow: 5px 5px 15px grey;
+    opacity: 0.9;
 }
 
 nav ul {
@@ -52,6 +53,10 @@ a {
 }
 
 a:link {
+	color: #000;
+}
+
+a:visited {
 	color: #000;
 }
 
@@ -78,27 +83,29 @@ form {
 }
 
 form h4 {
-	margin: 0;
+    margin: 0px 0 15px;
 }
 
 input {
-    width: 213px;
-    padding: 2px;
-    margin: 2px 0;
+    width: 188px;
+    padding: 2px 5px;
+    margin: -8px auto;
     height: 10%;
+    border: 1px solid #a1a1a1;
+    display: block;
+	
 }
 
 #wyslij {
     background-color: #5f9ad7;
     border: none;
     color: white;
-    /* padding: 4px 28px; */
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     font-family: 'Encode Sans Expanded', Arial, sans-serif;
     height: 30px;
+    width: 200px;
 }
 
 form a:link {
