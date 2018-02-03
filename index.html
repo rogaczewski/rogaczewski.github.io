@@ -21,7 +21,12 @@
 			<input type="text" name="company" placeholder="Podaj imię lub nazwę firmy," required><br>
 			<input type="email" name="email" placeholder="oraz email" required><br>
 			<input type="tel" name="phone" placeholder="lub numer telefonu" required><br>
-			<input type="list" name="temat" placeholder="lub numer telefonu" required><br>
+			  <input list="tematy" name="browser" placeholder="i temat ;)">
+				  <datalist id="tematy">
+					<option value="Chodź na kawę">
+					<option value="Mam pytanie">
+					<option value="Mam propozycję">
+				  </datalist><br>
 			<input id="wyslij" type="submit" formmethod="post" value="Chcę pogadać ;)"><br>
 			<p>Możesz też <a href="tel:+48507747439">zadzwonić</a>, lub <a href="mailto:m.b.rogaczewski@gmail.com?Subject=Cześć,%20spodobało%20mi%20się%20Twoje%20CV%20;)" target="_top">napisać maila</a>. </p>
 			</form>
