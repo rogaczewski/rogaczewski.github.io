@@ -161,11 +161,20 @@ footer p {
     width: 100%;
     height: 300px;
     opacity: 1;
-    background-image: url(../img/bikehiro.jpg);
-    background-position: 70% -255px;
-    /* background-size: 50%; */
     /* top: 30px; */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #000;
+}
+
+.kv1 {
+	background-image: url(../img/bikehiro.jpg);
+    background-position: 70% -255px;
+    
+}
+
+.kv2 {
+	background-image: url(../img/przejazd.jpg);
+    background-position: 70% -255px;
+	background-size: 50%;
 }
