@@ -137,15 +137,28 @@ form label {
     display: block;
 }
 
+#close {
+	font-size: .6em;
+	color: #545454;
+	text-align: right;
+    position: relative;
+    left: 70px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#close:hover {
+    cursor: pointer;
+}
+
 form p {
     margin-top: -10px;	
-
+}
+	
 footer {
 	margin: 0 auto;
     position: inherit;
     bottom: 2px;
-}
-	
 }
 
 footer p {
@@ -177,4 +190,17 @@ footer p {
     background-image: url(../img/przejazd.jpg);
     background-position: 48% 257px;
     background-size: 66%;
+}
+.gallery-box {
+	box-shadow: 5px 5px 15px grey;
+	display: inline-block;
+	opacity: 0.5;
+	margin: 20px 45px;
+}
+.gallery-box:hover {
+	opacity: 1;
+}
+
+.desc {
+	height: 50px;
 }
