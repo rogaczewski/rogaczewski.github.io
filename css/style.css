@@ -196,6 +196,7 @@ footer p {
 	display: inline-block;
 	opacity: 0.5;
 	margin: 20px 45px;
+	transition-duration: 0.4s;
 }
 .gallery-box:hover {
 	opacity: 1;
@@ -203,4 +204,5 @@ footer p {
 
 .desc {
 	height: 50px;
+	padding: 10px;
 }
