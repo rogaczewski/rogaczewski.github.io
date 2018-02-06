@@ -210,7 +210,8 @@ footer p {
 
 figure img {
 	-webkit-filter: blur(5px); /* Safari */
-    filter: blur(1px);
+    filter: blur(3px);
+	transition-duration: 0.4s;
 }
 
 figure img:hover {
