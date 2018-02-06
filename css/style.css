@@ -36,6 +36,7 @@ nav {
     background-color: #fff;
     box-shadow: 5px 5px 15px grey;
     opacity: 0.9;
+	z-index: 300;
 }
 
 nav ul {
