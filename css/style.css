@@ -11,12 +11,31 @@ p {
 	font-family: 'Encode Sans Expanded', Arial, sans-serif;
 }
 
+li {
+	padding-top: 6px;
+}
+li span {
+	color: #000;
+}
+
+ul {
+    padding-bottom: 5px;
+	border-left: none;
+	
+
+}
+
+.opis {
+	border-left: 2px solid #5f9ad7;
+	list-style-type: none;
+} 
+
 .kartka {
 	width: 595px;
     min-height: 842px;
     background-color: #fff;
     margin: 35px auto;
-    padding: 75px 50px 20px;
+    padding: 75px 50px 60px;
     box-shadow: 10px 10px 20px grey;
     z-index: 1;
 }
@@ -41,11 +60,13 @@ nav {
 
 nav ul {
 	padding: 0 15px;
+	border-left: none;
 }
 
 nav ul li {
 	display: inline;
 	margin: 5px 10px;
+	
 
 }
 
@@ -189,9 +210,11 @@ footer p {
 }
 
 .kv2 {
-    background-image: url(../img/przejazd.jpg);
-    background-position: 48% 257px;
-    background-size: 66%;
+    background-image: url(../img/ngosy.jpg);
+    background-position: 50% 194px;
+    /* background-size: 66%; */
+    background-color: #fff;
+    height: 320px;
 }
 .gallery-box {
 	box-shadow: 5px 5px 15px grey;
@@ -227,3 +250,4 @@ figurecaption:hover {
 	padding: 10px;
 
 }
+
