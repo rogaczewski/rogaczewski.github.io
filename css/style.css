@@ -190,6 +190,7 @@ footer p {
 .photo {
 	box-shadow: 5px 5px 15px grey;
 	z-index: 1;
+	margin-top: 45px;
 }
 
 .keyvisual { 
