@@ -50,7 +50,7 @@ nav {
     top: 15px;
     /* left: 0; */
     margin: 0px -8%;
-    width: 342px;
+    min-width: 342px;
     /* border: 1px solid #000; */
     background-color: #fff;
     box-shadow: 5px 5px 15px grey;
