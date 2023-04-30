@@ -35,7 +35,7 @@ ul, ol {
 	width: 595px;
 	min-height: 842px;
 	background-color: #fff;
-	margin: 35px auto;
+	margin: 35px auto 60px;
 	padding: 75px 50px 60px;
 	box-shadow: 10px 10px 20px grey;
 	z-index: 1;
@@ -71,6 +71,27 @@ nav ul li {
 	
 
 }
+
+#jsnav {    
+    top: 294px;
+    left: -160px;
+    min-width: 200px;
+	transition-duration: 0.7s;
+	
+	}
+#jsnav:hover {
+	left: 20px;
+}
+
+#jsnav ul li {
+	display: block;
+}	
+
+#jsnav p {
+    display: block;
+    position: relative;
+    right: -173px;
+}	
 
 a {
 	text-decoration: none;
@@ -186,13 +207,16 @@ footer {
 }
 
 footer p {
-	text-align: center;
+	position: fixed;
+	bottom: 0px;
+	left: 42%;
+	z-index: -1;
 }
 
 .photo {
 	box-shadow: 5px 5px 15px grey;
 	z-index: 1;
-	margin-top: 45px;
+	margin-top: 41px;
 }
 
 .keyvisual { 
