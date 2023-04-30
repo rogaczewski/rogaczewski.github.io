@@ -21,7 +21,7 @@
 			
 			<input type="text" name="company" placeholder="Podaj imię lub nazwę firmy," required><br>
 			<input type="email" name="email" placeholder="oraz email" required><br>
-			<input type="tel" name="phone" placeholder="lub numer telefonu" required><br>
+			<input type="tel" name="phone" maxlength="9" placeholder="lub numer telefonu" required><br>
 			  <input list="tematy" name="topic" placeholder="i temat ;)">
 				  <datalist id="tematy">
 					<option value="Chodź na kawę">
@@ -46,13 +46,23 @@
 			</ul>
 			
 		</nav>
+		<nav id="jsnav" style="margin:-10px">
+			<p>.js</p>
+			<ul>
+				<li><a onclick='tresc()'>| Odkryj nagłówki<br>&nbsp;i linki</a></li>
+				<li><a onclick='zdjecie()'>| Pokaż mnie</a></li>
+				<li><a onclick='cmsy()'>| Pokaż listę</a></li>
+				<li><a onclick='sortuj()'>| Sortuj a-z</a></li>
+				<li><a onclick='sortuj2()'>| Sortuj z-a</a></li>
+			</ul>
+		</nav>
 		
 		<header>
-			<h1>Curriculum vitae</h1>
-			<h2>Podstawowe informacje</h2>
+			<h1 id="h1"></h1>
+			<h2 id="ih2"></h2>
 			
 			<aside>
-				<img class="photo" src="img/mr.jpg" alt="">
+				<img id="kabanos" alt="" src="" >
 			</aside>
 		
 		</header>
@@ -60,14 +70,14 @@
 		
 		
 	<section>
-		<h3>Dane osobowe</h3>
+		<h3 id="ih3dane"></h3>
 		<ul class="opis">
-			<li><span>Marcin Rogaczewski</span>
+			<li>Marcin Rogaczewski
 				<ul>	
-					<li><span>12. stycznia 1988r</span></li>
-					<li><span>Białystok</span></li>
+					<li>12. stycznia 1988r</li>
+					<li>Białystok</li>
 					<li><a onclick="document.getElementById('kontakt').style.display='block'" title="kontakt">m.b.rogaczewski<br>na gmail.com</a></li>	
-					<li><a href="https://facebook.com/kczapki" target="_blank">Facebook</a></li>	
+					<li><a id="fb1" target="_blank">Facebook</a></li>	
 
 				</ul>
 			</li>
@@ -75,29 +85,21 @@
 	</section>
 	
 	<section>
-		<h3>Doświadczenie</h3>
+		<h3 id="ih3dosw"></h3>
 		<ul class="opis">
 			<li>Web Content Developer
 				<ul>
 					<li>2017 - obecnie</li>
 				</ul>
 			</li>
-			<li>CMS'y
-				<ol>
-					<li>Sitecore</li>
-					<li>RedDot</li>
-					<li>RedLink</li>
-					<li>Drupal</li>
-					<li>Wordpress</li>
-					<li>Joomla</li>
-				</ol>
+			<li id="cms">
 			</li>
 			
 			<li>Facebook
 				<ul>
 					<li>Obsługa fanpage'ów stowarzyszeń i małej firmy</li>
 					<li>Podstawy Edge Rank</li>
-					<li>Grupy (~<a href="https://www.facebook.com/groups/wynajmebialystok/about/" target="_blank">30k</a> i <a href="https://www.facebook.com/groups/wynajemwarszawa/" target="_blank">~60k</a> członków)</li>
+					<li>Grupy (~<a id="fb2"  target="_blank">30k</a> i <a id="fb3"  target="_blank">~60k</a> członków)</li>
 				</ul>
 			</li>
 			
@@ -157,7 +159,7 @@
 	
 	
 	<section>
-		<h3>Wykształcenie</h3>
+		<h3 id="ih3wyksz"></h3>
 		<ul class="opis">
 			<li>Front-end Development
 				<ul>
@@ -179,7 +181,7 @@
 	</section>
 	
 	<section>
-		<h3>Języki obce</h3>
+		<h3 id="ih3jezyki"></h3>
 		<ul class="opis">
 			<li>Angielski
 				<ul>
@@ -195,12 +197,11 @@
 	</section>
 	
 	<section>
-		<h3>Zainteresowania</h3>
+		<h3 id="ih3zaint"></h3>
 		<ul class="opis"> 
 			<li>
-				<p>
-				Rower, fotografia, gitara elektryczna,
-				motoryzacja, majsterkowanie, psychologia, nowe technologie, urbanistyka i komunikacja.</p>
+				<p id="interere">
+				</p>
 			</li>
 		</ul>
 	</section>
